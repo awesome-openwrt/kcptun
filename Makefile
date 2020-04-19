@@ -21,6 +21,7 @@ PKG_MAINTAINER:=Xingwang Liao <kuoruan@gmail.com>
 
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)/$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION)
 PKG_USE_MIPS16:=0
 
 GO_PKG:=github.com/xtaci/kcptun
